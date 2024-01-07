@@ -1,0 +1,241 @@
+/* GoogleFont Link */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+ol,ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+
+/* ==== Banner Part ==== */
+#banner {
+    background-image: url('../images/banner-main.png');
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    padding-top: 246px;
+    padding-bottom: 230px;
+}
+#banner .banner_content {
+    width: 50%;
+    text-align: end;
+}
+.blank_col {
+    width: 50%;
+}
+#banner .banner_content h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 6px;
+    padding-bottom: 24px;
+}
+#banner .banner_content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    padding-left: 64px;
+    padding-bottom: 32px;
+}
+#banner .banner_content button {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #005FAC;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* About Part */
+#about {
+    padding: 110px 0px;
+}
+#about .about_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about .aboutImg_col {
+    width: 40%;
+}
+#about .aboutText_col {
+    width: 60%;
+    padding: 0px 118px;
+}
+#about .aboutImg_col img {
+    width: 500px;
+}
+#about .aboutText_col h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    padding-bottom: 24px;
+}
+#about .aboutText_col p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    padding-bottom: 16px;
+}
+#about .aboutText_col h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+}
+#about .aboutText_col h6 i {
+    color: green;
+}
+/* My plan Part */
+#my_plan {
+    padding-bottom: 110px;
+}
+#my_plan .myPlan_heading h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    padding-bottom: 50px;
+}
+#my_plan .planMain {
+    display: flex;
+    justify-content: space-between;
+}
+#my_plan .planItem_col {
+    width: 25%;
+    padding-bottom: 100px;
+    text-align: center;
+}
+#my_plan .planItem_col h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #151414;
+    padding: 24px 0px 16px 0px;
+}
+#my_plan .planItem_col p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #737272;
+}
+#my_plan .plan_banner {
+    width: 100%;
+    border-radius: 8px;
+    background-image: url('../images/plan-banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0px 60px 65px;
+    position: relative;
+    z-index: 1;
+}
+#my_plan .plan_banner .overlay {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%);
+    position: absolute;
+    z-index: -1;
+}
+#my_plan .plan_banner h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFF;
+    padding-right: 44%;
+    padding-bottom: 24px;
+}
+#my_plan .plan_banner button {
+    font-size: 20px;
+    font-weight: 600;
+    color: #005FAC;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer Part Start */
+#footer {
+    padding: 130px 0px;
+    background-color: #151414;
+}
+#footer .footerLeft_col {
+    width: 50%;
+}
+#footer .footerLeft_col h3 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    padding-bottom: 16px;
+}
+#footer .footerLeft_col p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    padding-right: 18%;
+    padding-bottom: 8px;
+}
+#footer .footerLeft_col h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    padding-top: 16px;
+}
+#footer .footerLeft_col a {
+    color: #1DA1F2;
+    font-size: 24px;
+    margin-right: 10px;
+    padding-top: 32px;
+}
+#footer .footerRight_col {
+    width: 50%;
+}
+#footer .footerRight_col h5 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 32px;
+}
+#footer .footerRight_col form input {
+    padding: 22px 158px 22px 22px;
+    background: transparent;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #f3f3f3;
+    display: block;
+    margin-bottom: 16px;
+}
+#footer .footerRight_col form button {
+    padding: 20px 35px;
+    background-color: #005FAC;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Footer Part End */
